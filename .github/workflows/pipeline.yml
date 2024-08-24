@@ -24,6 +24,9 @@ jobs:
         path: .
     - name: Cacheing
       uses: actions/cache@v2
+      with:
+        key: 'the-cache-key'
+        path: .
     
     
   
